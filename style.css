@@ -328,8 +328,8 @@ padding: 5% 1% 1% 5%;
 @media (min-width: 320px) and (max-width: 480px) {
   .fav2{
     width: 45%;
-    margin-left: auto;
-    margin-right: auto;
+
+    margin-right: 10%;
   }
   .pqr{
   padding: 5% 1% 1% 5%;
