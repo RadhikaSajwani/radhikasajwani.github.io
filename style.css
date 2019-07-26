@@ -54,7 +54,7 @@ body{
       box-shadow: 2px 3px 10px #555;
 }
 .name{
-  font-size: 200% !important;
+  font-size: 100% !important;
   line-height: 1em;
   text-align: center;
   font-weight:bold;
