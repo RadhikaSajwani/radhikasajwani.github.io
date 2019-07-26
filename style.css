@@ -253,7 +253,7 @@ padding: 5% 1% 1% 5%;
 }
 @media (min-width: 481px) and (max-width: 767px) {
   .cardp{
-    margin-top: 20%;
+    margin-top: 25%;
   }
   .pqr{
   padding: 5% 1% 1% 5%;
@@ -327,9 +327,9 @@ padding: 5% 1% 1% 5%;
 
 @media (min-width: 320px) and (max-width: 480px) {
   .fav2{
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
   .pqr{
   padding: 5% 1% 1% 5%;
@@ -375,7 +375,7 @@ padding: 5% 1% 1% 5%;
     padding: 1%;
   }
   .cardp{
-    margin-top: 20%;
+    margin-top: 25%;
   }
   .interest{
     width:65%;
