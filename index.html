@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+    <title>Radhika Sajwani</title>
+<script type="text/javascript">
+function validateForm()
+{
+  var bool;
+var regex = /^[A-Za-z]||\t*$/;
+// ---------- First Name ----------
+var x = document.forms["myform"]["fname"].value;
+if (x == "") {
+  alert("First Name must be filled out");
+  document.forms["myform"]["fname"].style.border="2px solid red";
+  bool = false;
+}
+else {
+  if (!regex.test(x)) {
+    alert("Invalid Pattern for First Name");
+    document.forms["myform"]["fname"].style.border="2px solid red";
+    bool = false;
+  }
+  else{
+    document.forms["myform"]["fname"].style.border="2px solid green";
+    bool = true;
+  }
+}
+
+// ---------- Email ID ----------
+var x = document.forms["myform"]["email"].value;
+var regex_email = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+if(!regex_email.test(x))
+{
+  alert("Please enter a valid Email ID");
+  document.forms["myform"]["email"].style.border="2px solid red";
+  bool = false;
+}
+else {
+  document.forms["myform"]["email"].style.border="2px solid green";
+}
+if(bool == false)
+{
+  return false;
+}
+else {
+  return true;
+}
+}
+</script>
+​
+  </head>
+  <body>
+    <div class="container-full-width">
+      <div class="home" id="home">
+        <div class="row navigator fixed-top">
+          <!-- <div class="col-md-6">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link " href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link " href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link " href="#">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link " href="#">Contact</a>
+              </li>
+            </ul> -->
+            <nav class="navbar navbar-expand-md navbar-dark">
+              <!-- <a class="navbar-brand" href="#">RS</a> -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="col-md-6">
+
+          </div>
+
+        </div>
+        <div class="slider">
+              <div class="row cardp">
+                <img class="col-md-6 image" src="girl.jpg" alt="Los Angeles">
+                <div class="col-md-6 padd">
+                  <p class="name">RADHIKA SAJWANI</p>
+                  <hr>
+                  <p>Software Engineering Student</p>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="topmar margin">
+
+        <h1 class="name1 margin">About</h1> <hr>
+        <div class="row about">
+          <div class="col-md-7">
+            <p style="font-size: 20px;text-align:center;">Radhika Sajwani is currently pursuing her Bachelors degree in Engineering under Pune University from Vishwakarma Institute of Information Technology. She is well focused towards her work and is looking for an opportunity to work with a reputed company. Being a technical student she loves coding and is well known will C++ and JAVA. She has also worked on front-end web technology with HTML, CSS, Javascript an Bootstrap and backend databases like Mysql and Firebase. Painting is her hobby and she has painted around 20 canvases till date. Learning new things quickly is her strength. She was the topper in her school and college days. She has actively taken part in the college cultural fest every year. As a person she is trustworthy and dedicated towards her work.  </p>
+          </div>
+          <div class="col-md-5">
+            <div class="pull-right"><img class="img-responsive" alt="logo" src="girl.jpg" style="width:100%;"/></div>
+          </div>
+        </div>
+
+
+
+    </div>
+    <div class="education name2 margin" id="education">
+              <h1 class="name1 margin">Education</h1> <hr>
+
+                <div class="row card1 double-border">
+                  <div class="col-md-4 header">
+BE(Computer)<br> (2016-2020)
+                  </div>
+                  <div class="col-md-8 font-20">
+                      Pursuing Bachelors of Engineering (Computer Science) from Vishwakarma Institute of Information Technology, Pune under Pune University with an average pointer of 9.01 CGPA till date.
+                  </div>
+                </div>
+
+
+                <div class="row card2 double-border">
+                  <div class="col-md-4 header">
+12th <br> (2015-2016)
+                  </div>
+                  <div class="col-md-8 font-20">
+                      Completed 12th from S.M.Choksey College, Pune under HSC board with a percentage of 86.77.
+                  </div>
+                </div>
+                <div class="row card3 double-border">
+                  <div class="col-md-4 header">
+10th <br> (2013-2014)
+                  </div>
+                  <div class="col-md-8 font-20">
+                        Completed 10th from Dastur High School, Pune under SSC board with a percentage of 93.2.
+                  </div>
+                </div>
+    </div>
+    <div class="skill topmar" id="skills">
+      <div class=" margin">
+        <h1 class="name1 margin">Skills</h1>  <hr>
+        <div class="row about">
+          <div class="col-md-6 skillbar">
+            <div class="title">
+              HTML
+            </div>
+            <div class="progress">
+              <div class="progress-bar" style="width:85%;">
+                85%
+              </div>
+            </div>
+
+            <div class="title">
+              CSS
+            </div>
+            <div class="progress">
+              <div class="progress-bar" style="width:70%;">
+                70%
+              </div>
+            </div>
+            <div class="title">
+              JAVASCRIPT
+            </div>
+            <div class="progress">
+              <div class="progress-bar" style="width:55%;">
+                55%
+              </div>
+            </div>
+            <div class="title">
+              C++
+            </div>
+            <div class="progress">
+              <div class="progress-bar" style="width:75%;">
+                75%
+              </div>
+            </div>
+            <div class="title">
+              JAVA
+            </div>
+            <div class="progress">
+              <div class="progress-bar" style="width:70%;">
+                70%
+              </div>
+            </div>
+            <div class="title">
+              MYSQL
+            </div>
+            <div class="progress">
+              <div class="progress-bar" style="width:65%;">
+                65%
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="interest">
+              <h5>INTERESTS</h5>
+              <ul>
+                <li>Android</li>
+                <li>PHP</li>
+                <li>Firebase</li>
+                <li>Bootstrap</li>
+                                <li>Python</li>
+                                                <li>Machine Learning</li>
+                                                                <li>Arduino</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+<div class="experience name2" id="experience">
+  <div class="abc margin">
+        <h1 class="name1 margin">Experience</h1> <hr>
+    <div class="row">
+      <div class="col-md-5">
+
+        <p style="font-size: 18px;text-align:justify;font-weight:bold;"> She is an intern at Techechelons Infosolutions working on full stack. At college she has completed 2 projects on Android and Java. She is working on her 3rd project on 'Web mining for Online Courses'. She is also experienced apart from technical fields. She has worked with the college cultural team for 3 years as the Decoration head. </p>
+      </div>
+      <div class="col-md-7">
+        <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Intern at Techechelons</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">Interning at Techechelons InfoSolutions Pvt. Ltd. on Full Stack.The duration of internship is 1 month.Learning front end web development using HTML, CSS, Javascript and Bootstrap.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Projects</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">Built an android app using Android Studio and Firebase database for e-commerce.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Decoration Head</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">Lead the decoration team at the college cultural fest Gandharva(2019).</div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<div class=" margin" id="contact">
+  <h1 class="name1 margin">Contact</h1> <hr>
+  <div class="cardp pqr">
+    <form class="" method="post" name="myform" action="email.php"  onsubmit="return validateForm()">
+      <div class="form-group">
+                    <label class="col-md-3 control-label font-weight-bold" for="name">Name</label>
+                    <div class="col-md-11">
+                      <input id="fname" name="fname" type="text" placeholder="Your name" class="form-control">
+                    </div>
+                  </div>
+
+                  <!-- Email input-->
+                  <div class="form-group">
+                    <label class="col-md-3 control-label font-weight-bold" for="email">Your E-mail</label>
+                    <div class="col-md-11">
+                      <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                    </div>
+                  </div>
+
+                  <!-- Message body -->
+                  <div class="form-group">
+                    <label class="col-md-3 control-label font-weight-bold" for="message">Your message</label>
+                    <div class="col-md-11">
+                      <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                    </div>
+                  </div>
+
+                  <!-- Form actions -->
+                  <div class="form-group">
+                    <div class="col-md-6 text-right">
+                      <button type="submit" class="btn btn-primary btn-lg" name="submit">Submit</button>
+                    </div>
+                  </div>
+    </form>
+
+  </div>
+</div>
+
+
+<div class="bgdark1 favicon">
+  <div class="fav2">
+    <a href="https://www.facebook.com"> <img src="facebook.png" class="imgg"> </a>
+        <a href="https://www.twitter.com"> <img class="imgg" src="twitter.png" alt="" /> </a>
+            <a href="https://www.instagram.com"> <img class="imgg" src="instagram.jpg" alt="" /> </a>
+  </div>
+
+</div>
+    </div>
+
+  </body>
+</html>
