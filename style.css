@@ -247,13 +247,13 @@ padding: 5% 1% 1% 5%;
 
 }
 .fav2{
-  /* width: 10%;
+  width: 10%;
   margin-left: 50%;
-  margin-right: 40%; */
+  margin-right: 40%;
 }
 @media (min-width: 481px) and (max-width: 767px) {
   .cardp{
-    margin-top: 25%;
+    margin-top: 50%;
   }
   .pqr{
   padding: 5% 1% 1% 5%;
@@ -316,14 +316,14 @@ padding: 5% 1% 1% 5%;
   margin-right: 42%;
 }
 
-@media (min-width: 481px) and (max-width: 600px) {
+/* @media (min-width: 481px) and (max-width: 600px) {
   .fav2{
     width: 40%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10%;
   }
-}
+} */
 
 @media (min-width: 320px) and (max-width: 480px) {
   .fav2{
@@ -375,7 +375,7 @@ padding: 5% 1% 1% 5%;
     padding: 1%;
   }
   .cardp{
-    margin-top: 25%;
+    margin-top: 50%;
   }
   .interest{
     width:65%;
