@@ -261,9 +261,7 @@ padding: 5% 1% 1% 5%;
 
 }
 .fav2{
-  width: 10%;
-  margin-left: 50%;
-  margin-right: 40%;
+  text-align:center;
 }
 @media (min-width: 481px) and (max-width: 767px) {
   .cardp{
@@ -325,9 +323,7 @@ padding: 5% 1% 1% 5%;
   padding-bottom: 2%;
 }
 .fav2{
-  width: 16%;
-  margin-left: 42%;
-  margin-right: 42%;
+ text-align:center;
 }
 
 /* @media (min-width: 481px) and (max-width: 600px) {
@@ -341,9 +337,7 @@ padding: 5% 1% 1% 5%;
 
 @media (min-width: 320px) and (max-width: 480px) {
   .fav2 {
-    width: 60%;
-    /* margin-left: auto; */
-    margin-right: 5%;
+ text-align:center;
 }
   .pqr{
   padding: 5% 1% 1% 5%;
