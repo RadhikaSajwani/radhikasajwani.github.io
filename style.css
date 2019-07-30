@@ -134,7 +134,7 @@ hr{
   width:50%;
   margin-left: 15% !important;
   margin-right: 35% !important;
-  padding: 1%;
+  padding: 3%;
 }
 .card2{
   font-size: 20px;
@@ -145,7 +145,7 @@ hr{
   width:50%;
   margin-left: 25% !important;
   margin-right: 25% !important;
-  padding: 1%;
+  padding: 3%;
 }
 .card3{
   font-size: 20px;
@@ -156,7 +156,7 @@ hr{
   width:50%;
   margin-left: 35% !important;
   margin-right: 15% !important;
-  padding: 1%;
+  padding: 3%;
 }
 .double-border{
 background-color:#ccc;
@@ -291,7 +291,7 @@ padding: 5% 1% 1% 5%;
   width:80%;
   margin-left:auto !important;
   margin-right: auto !important;
-  padding: 1%;
+  padding: 3%;
 }
 .card2{
   font-size: 20px;
@@ -302,7 +302,7 @@ padding: 5% 1% 1% 5%;
   width:80%;
   margin-left:auto !important;
   margin-right: auto !important;
-  padding: 1%;
+  padding: 3%;
 }
 .card3{
   font-size: 20px;
@@ -313,7 +313,7 @@ padding: 5% 1% 1% 5%;
   width:80%;
   margin-left:auto !important;
   margin-right: auto !important;
-  padding: 1%;
+  padding: 3%;
 }
 .bgdark1{
   background-color: #333 !important;
@@ -351,7 +351,7 @@ padding: 5% 1% 1% 5%;
     width:80%;
     margin-left:auto !important;
     margin-right: auto !important;
-    padding: 1%;
+    padding: 3%;
   }
   .bgdark{
     background-color: #333 !important;
@@ -369,7 +369,7 @@ padding: 5% 1% 1% 5%;
     width:80%;
     margin-left:auto !important;
     margin-right: auto !important;
-    padding: 1%;
+    padding: 3%;
   }
   .card3{
     font-size: 20px;
@@ -380,7 +380,7 @@ padding: 5% 1% 1% 5%;
     width:80%;
     margin-left:auto !important;
     margin-right: auto !important;
-    padding: 1%;
+    padding: 3%;
   }
   .cardp{
     margin-top: 30%;
