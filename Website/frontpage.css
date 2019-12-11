@@ -1,0 +1,52 @@
+body{
+  overflow-x: hidden;
+}
+.container-fluid{
+  padding-left: 0px !important;
+}
+.title{
+  position: relative;
+  height: 5%;
+  padding: 7px;
+  left:3%;
+  padding-top: 40px;
+}
+.name{
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 0px !important;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+.lmsbackground{
+      position: absolute;
+      height: 100%;
+        filter: blur(1px);
+}
+.buttons{
+  position: absolute;
+  width:35%;
+  margin-left: 65%;
+  top:20%;
+  padding: 1%;
+}
+.btn{
+  width: 40%;
+  margin-left: 30%;
+  padding: 3% 0% 0%;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 15px 15px 10px #333;
+}
+.info{
+  color: white;
+  width: 40%;
+  margin-left: 30%;
+  font-size: 15px;
+  margin-top: 3%;
+  position: relative;
+  left: 0%;
+  font-weight: bold;
+  margin-bottom: 7%;
+}

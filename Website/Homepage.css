@@ -1,0 +1,45 @@
+.white{
+  color: white;
+}
+.margin{
+  padding: 0% 3%;
+}
+li {
+    position: relative;
+    display: block;
+    padding: 0px 40px;
+}
+a{
+  font-size: 2rem;
+}
+.title{
+  font-weight: bold;
+  padding-left: 80px;
+  padding-right: 60px;
+  background-color: blue;
+  color:white !important;
+  font-size:25px;
+}
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.inline{
+  display: inline-block;
+  height: 50%;
+}
+.color1{
+  background-color: yellow;
+}
+.color2{
+  background-color: pink;
+}
+.width1{
+  width: 20.25%;
+}
+.width2{
+  width: 79.5%;
+}
+.navbar{
+  margin-bottom: 0px !important;
+}
